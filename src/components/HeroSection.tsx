@@ -71,11 +71,13 @@ export default function HeroSection() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-accent-electric/30 blur-3xl rounded-full z-0" />
           {/* Profile Card */}
           <div className="relative bg-gradient-to-br from-cardbg/90 to-darkbg/70 rounded-full shadow-neon p-[0.45rem] ring-4 ring-accent-blue/25 z-10">
-            <img
-              src={heroImage}
-              alt="Profile picture"
-              className="rounded-full w-64 h-64 object-cover border-4 border-accent-blue shadow-lg"
-            />
+            <div className="relative w-64 h-64 overflow-hidden rounded-full">
+              <img
+                src={heroImage}
+                alt="Profile picture"
+                className="rounded-full w-64 h-64 object-cover border-4 border-accent-blue shadow-lg mt-6"
+              />
+            </div>
             {/* Badge */}
             <span className="absolute bottom-5 left-1/2 -translate-x-1/2 bg-accent-green px-4 py-1 rounded-full text-xs font-bold text-darkbg shadow tracking-wide">
               Profile
