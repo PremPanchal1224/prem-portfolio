@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const heroImage = "/lovable-uploads/placeholder.svg";
@@ -36,7 +37,7 @@ export default function HeroSection() {
               </span>
             </div>
             <p className="text-lg sm:text-xl max-w-xl text-gray-200 mt-1">
-              Passionate about building intelligent systems and dynamic web applications that create real-world impact.
+              passionate about building smart, user-friendly solutions using AI, data, and web technologies.
             </p>
           </div>
 

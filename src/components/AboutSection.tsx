@@ -5,10 +5,6 @@ export default function AboutSection() {
       <div className="container max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 text-left animate-fade-in-up">
           <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
-          {/* Profile Summary */}
-          <p className="mb-4 text-base sm:text-lg text-accent-blue font-semibold bg-accent-blue/10 border-l-4 border-accent-blue py-2 px-4 rounded-lg shadow-sm">
-            I'm Prem Panchal, a CS undergrad passionate about building smart, user-friendly solutions using AI, data, and web technologies.
-          </p>
           {/* Main About Me Body */}
           <p className="mb-3 text-lg text-gray-300">
             Hi, I’m Prem Panchal — a tech enthusiast and aspiring engineer specializing in AI, full-stack development, and data-driven applications. I'm currently in my third year of B.Tech in Computer Engineering at K. J. Somaiya Institute of Technology, with a CGPA of <span className="text-accent-green font-bold">9.3</span>.
