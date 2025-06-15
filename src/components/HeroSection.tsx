@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const heroImage = "https://i.postimg.cc/B6yfx6PK/Prem-Panchal-Professional-Photo.jpg";
@@ -75,7 +74,7 @@ export default function HeroSection() {
               <img
                 src={heroImage}
                 alt="Profile picture"
-                className="rounded-full w-64 h-64 object-cover border-4 border-accent-blue shadow-lg mt-6"
+                className="rounded-full w-64 h-64 object-cover object-top border-4 border-accent-blue shadow-lg"
               />
             </div>
             {/* Badge */}
