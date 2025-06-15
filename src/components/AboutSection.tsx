@@ -12,7 +12,7 @@ export default function AboutSection() {
             My focus is on practical applications of AI, machine learning, and full-stack development. I interned at <span className="text-accent-green font-semibold">Claidroid Technologies</span> and contributed to <span className="text-accent-blue font-semibold">CASCADE</span> as an on-field app tester.
           </p>
           <div className="flex gap-5 mt-7">
-            <a href="https://drive.google.com/file/d/1zNCSWVKfgdJtWiHHCcLhMomTILCRCc6T/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            <a href="https://drive.google.com/file/d/18oMk9VX5ufUMn-iINC3Rl5gmnIf0iYPX/view?usp=sharing" target="_blank" rel="noopener noreferrer"
               className="bg-accent-blue px-8 py-2 rounded-lg font-bold text-white hover:bg-accent-green hover:text-darkbg transition-colors shadow">
               Download Resume
             </a>
