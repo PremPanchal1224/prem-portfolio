@@ -1,7 +1,7 @@
 
 import React from "react";
 
-const heroImage = "https://i.postimg.cc/G2tXJxvM/Prem-Panchal-Professional-Photo.jpg";
+const heroImage = "https://i.postimg.cc/B6yfx6PK/Prem-Panchal-Professional-Photo.jpg";
 
 export default function HeroSection() {
   return (
