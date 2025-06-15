@@ -1,13 +1,13 @@
 
 import { useState } from "react";
-import { Github, Linkedin, Mail, Phone, Instagram } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Instagram, Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
   { href: "mailto:panchal.pg@somaiya.edu", icon: Mail, label: "Email" },
   { href: "https://linkedin.com/in/prempanchal1224", icon: Linkedin, label: "LinkedIn" },
   { href: "https://github.com/PremPanchal1224", icon: Github, label: "GitHub" },
-  { href: "https://x.com/Prem_Panchal_", icon: User, label: "X" },
+  { href: "https://x.com/Prem_Panchal_", icon: Twitter, label: "X" },
   { href: "https://instagram.com/prem.panchal_", icon: Instagram, label: "Instagram" },
 ];
 
