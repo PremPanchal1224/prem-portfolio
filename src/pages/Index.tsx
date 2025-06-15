@@ -21,7 +21,7 @@ const Index = () => {
       <AchievementsSection />
       <ContactSection />
       <footer className="py-8 text-center text-gray-400 bg-section">
-        &copy; {new Date().getFullYear()} Prem Panchal. Made with <span className="text-accent-green">♥</span>
+        &copy; {new Date().getFullYear()} Prem Panchal.
       </footer>
     </main>
   );
