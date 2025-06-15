@@ -1,7 +1,7 @@
 
 import React from "react";
 
-const heroImage = "/lovable-uploads/placeholder.svg";
+const heroImage = "https://i.postimg.cc/G2tXJxvM/Prem-Panchal-Professional-Photo.jpg";
 
 export default function HeroSection() {
   return (
@@ -88,4 +88,3 @@ export default function HeroSection() {
     </section>
   );
 }
-
