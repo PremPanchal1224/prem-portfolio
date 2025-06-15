@@ -77,10 +77,6 @@ export default function HeroSection() {
                 className="rounded-full w-64 h-64 object-cover object-top border-4 border-accent-blue shadow-lg"
               />
             </div>
-            {/* Badge */}
-            <span className="absolute bottom-5 left-1/2 -translate-x-1/2 bg-accent-green px-4 py-1 rounded-full text-xs font-bold text-darkbg shadow tracking-wide">
-              Profile
-            </span>
           </div>
         </div>
       </div>
