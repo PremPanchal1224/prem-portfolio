@@ -21,7 +21,10 @@ export default function Navbar() {
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-darkbg/85 backdrop-blur border-b border-section">
       <div className="container flex items-center justify-between py-3">
-        <span className="text-xl font-bold tracking-wide text-accent-electric">Prem Panchal</span>
+        {/* REMOVED THE NAME FROM THE NAV BAR */}
+        <span className="text-xl font-bold tracking-wide text-accent-electric sr-only">
+          Prem Panchal
+        </span>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map(link => (
             <a key={link.label} href={link.href} className="font-medium hover:text-accent-blue hover:underline underline-offset-8 px-2 transition-colors">

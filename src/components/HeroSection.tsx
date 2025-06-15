@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const heroImage = "/lovable-uploads/placeholder.svg";
@@ -31,9 +30,6 @@ export default function HeroSection() {
             <div className="flex items-center gap-2">
               <span className="inline-block px-4 py-1 rounded-full bg-accent-blue/20 backdrop-blur text-accent-green font-semibold text-base shadow animate-fade-in animate-delay-400">
                 CS Undergrad
-              </span>
-              <span className="inline-block text-gray-300 font-medium hidden sm:inline">
-                |
               </span>
               <span className="inline-block px-4 py-1 rounded-full bg-accent-green/20 backdrop-blur text-accent-blue font-semibold text-base shadow animate-fade-in animate-delay-500">
                 AI &amp; Web Dev Enthusiast
