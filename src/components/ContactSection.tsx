@@ -2,6 +2,12 @@
 import { useState } from "react";
 import { Github, Linkedin, Mail, Phone, Instagram, Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "@emailjs/browser";
+
+// EmailJS details
+const EMAILJS_SERVICE_ID = "service_0fma7po";
+const EMAILJS_TEMPLATE_ID = "template_beep0kw";
+const EMAILJS_PUBLIC_KEY = "n0uxRYrb3ZktdsNRx";
 
 const socialLinks = [
   { href: "mailto:panchal.pg@somaiya.edu", icon: Mail, label: "Email" },
@@ -30,18 +36,37 @@ export default function ContactSection() {
     setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
     setSending(true);
-    setTimeout(() => {
-      setSending(false);
+    // Send email via EmailJS
+    try {
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          reply_to: form.email,
+          message: form.message,
+          // add more fields, if template requires
+        },
+        EMAILJS_PUBLIC_KEY
+      );
       setForm({ name: "", email: "", message: "" });
       toast({
         title: "Message sent!",
-        description: "Thank you for reaching out. Prem will get back to you soon.",
+        description: "Thank you for reaching out. Prem will get back to you soon (check your email).",
       });
-    }, 1300);
+    } catch (error) {
+      toast({
+        title: "Failed to send message.",
+        description: "An error occurred. Please try again later.",
+        variant: "destructive"
+      });
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
