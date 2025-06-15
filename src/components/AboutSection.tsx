@@ -5,11 +5,22 @@ export default function AboutSection() {
       <div className="container max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 text-left animate-fade-in-up">
           <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
+          {/* Profile Summary */}
+          <p className="mb-4 text-base sm:text-lg text-accent-blue font-semibold bg-accent-blue/10 border-l-4 border-accent-blue py-2 px-4 rounded-lg shadow-sm">
+            I'm Prem Panchal, a CS undergrad passionate about building smart, user-friendly solutions using AI, data, and web technologies.
+          </p>
+          {/* Main About Me Body */}
           <p className="mb-3 text-lg text-gray-300">
-            I am currently pursuing a <span className="text-accent-blue font-semibold">B.Tech in Computer Engineering (2022–2026)</span> at K. J. Somaiya Institute of Technology, Mumbai (CGPA: <span className="text-accent-green font-bold">9.3</span>).
+            Hi, I’m Prem Panchal — a tech enthusiast and aspiring engineer specializing in AI, full-stack development, and data-driven applications. I'm currently in my third year of B.Tech in Computer Engineering at K. J. Somaiya Institute of Technology, with a CGPA of <span className="text-accent-green font-bold">9.3</span>.
           </p>
           <p className="mb-3 text-lg text-gray-300">
-            My focus is on practical applications of AI, machine learning, and full-stack development. I interned at <span className="text-accent-green font-semibold">Claidroid Technologies</span> and contributed to <span className="text-accent-blue font-semibold">CASCADE</span> as an on-field app tester.
+            My journey includes internships at <span className="text-accent-green font-semibold">Claidroid Technologies</span> and under the <span className="text-accent-blue font-semibold">CASCADE</span> initiative, where I worked on machine learning models, UI/UX design, and app testing. I’ve built advanced projects like <span className="text-accent-blue font-semibold">DocEase</span> — an AI-powered document assistant, <span className="text-accent-blue font-semibold">Smart Chatbot</span> for intelligent communication, and <span className="text-accent-blue font-semibold">AlgoTrading</span>, a stock forecasting and financial assistant tool.
+          </p>
+          <p className="mb-3 text-lg text-gray-300">
+            Beyond academics, I serve as the <span className="text-accent-green font-semibold">Chairperson</span> of the CSI Student Chapter and the <span className="text-accent-green font-semibold">CEO</span> of the Students’ Council, leading major events and fostering innovation on campus. I’m also an <span className="text-accent-green font-semibold">NSS Volunteer</span>, committed to social service and community growth.
+          </p>
+          <p className="mb-3 text-lg text-gray-300">
+            I enjoy turning complex ideas into functional, user-centric products — and I’m always exploring what’s next in the world of intelligent technology.
           </p>
           <div className="flex gap-5 mt-7">
             <a href="https://drive.google.com/file/d/18oMk9VX5ufUMn-iINC3Rl5gmnIf0iYPX/view?usp=sharing" target="_blank" rel="noopener noreferrer"
