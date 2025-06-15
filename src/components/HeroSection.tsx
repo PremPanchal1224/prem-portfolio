@@ -30,14 +30,11 @@ export default function HeroSection() {
             </h1>
             <div className="flex items-center gap-2">
               <span className="inline-block px-4 py-1 rounded-full bg-accent-blue/20 backdrop-blur text-accent-green font-semibold text-base shadow animate-fade-in animate-delay-400">
-                CS Undergrad
-              </span>
-              <span className="inline-block px-4 py-1 rounded-full bg-accent-green/20 backdrop-blur text-accent-blue font-semibold text-base shadow animate-fade-in animate-delay-500">
-                AI &amp; Web Dev Enthusiast
+                CS Undergrad | AI &amp; Web Dev Enthusiast
               </span>
             </div>
             <p className="text-lg sm:text-xl max-w-xl text-gray-200 mt-1">
-              passionate about building smart, user-friendly solutions using AI, data, and web technologies.
+              Passionate about building smart, user-friendly solutions using AI, data, and web technologies.
             </p>
           </div>
 
@@ -91,3 +88,4 @@ export default function HeroSection() {
     </section>
   );
 }
+
