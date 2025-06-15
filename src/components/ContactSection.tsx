@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Github, Linkedin, Mail, Phone, Instagram, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Instagram, Twitter, MapPin, Languages } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import emailjs from "@emailjs/browser";
 
@@ -76,14 +76,22 @@ export default function ContactSection() {
         <div className="flex flex-col md:flex-row gap-12">
           {/* Contact Info */}
           <div className="flex-1 animate-fade-in-up">
-            <div className="mb-4">
+            <div className="mb-4 space-y-3">
               <div className="flex items-center gap-2">
                 <Phone />
                 <span className="font-semibold text-white">+91 9136204775</span>
               </div>
-              <div className="flex items-center gap-2 mt-2">
+              <div className="flex items-center gap-2">
                 <Mail />
                 <span className="font-semibold text-white">panchal.pg@somaiya.edu</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MapPin />
+                <span className="font-semibold text-white">Mumbai, Maharashtra</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Languages />
+                <span className="font-semibold text-white">English, Hindi, Gujarati, Marathi</span>
               </div>
             </div>
             <div className="flex gap-4 mt-4">
