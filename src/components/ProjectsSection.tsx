@@ -4,35 +4,35 @@ import { Github } from "lucide-react";
 const projects = [
   {
     title: "DocEase",
-    period: "2024",
+    period: "2025",
     stack: ["Python", "Android", "AI"],
     description: "AI-powered document summarizer and QA Android app using RAG pipeline and offline search.",
     link: "https://github.com/PremPanchal1224/Doc-Ease"
   },
   {
     title: "Smart Chatbot",
-    period: "2024",
+    period: "2025",
     stack: ["React", "Gemini API", "Stable Diffusion"],
     description: "Real-time chatbot for summarization and image generation using Gemini API and Stable Diffusion.",
     link: "https://github.com/PremPanchal1224/Smart-Chatbot"
   },
   {
     title: "AlgoTrading",
-    period: "2023",
+    period: "2024",
     stack: ["LSTM", "Flask", "Python"],
     description: "Stock trend prediction using LSTM and chatbot for financial insights via Flask UI.",
     link: "https://github.com/PremPanchal1224/AlgoTrading"
   },
   {
     title: "Automatic Question Generator",
-    period: "2023",
+    period: "2024",
     stack: ["Streamlit", "NLP", "Python"],
     description: "Web app to extract, summarize, and generate questions from PDFs for efficient study and review.",
     link: "https://github.com/PremPanchal1224/Automated-Question-Generator"
   },
   {
     title: "Expense Tracker Mobile App",
-    period: "2023",
+    period: "2024",
     stack: ["Android", "Java", "SQLite"],
     description: "Android app to help users manage expenses, track spending, and maintain a budget with ease.",
     link: "https://github.com/PremPanchal1224/Expense_Tracker_Mobile_App"
