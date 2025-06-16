@@ -79,7 +79,7 @@ export default function ContactSection() {
             <div className="mb-4 space-y-3">
               <div className="flex items-center gap-2">
                 <Phone />
-                <span className="font-semibold text-white">+91 9136204775</span>
+                <span className="font-semibold text-white">+91 9136204775 (WhatsApp)</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail />
