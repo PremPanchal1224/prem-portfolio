@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Github, Linkedin, Mail, Phone, Twitter, MapPin, Languages } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -9,7 +10,8 @@ const EMAILJS_TEMPLATE_ID = "template_beep0kw";
 const EMAILJS_PUBLIC_KEY = "n0uxRYrb3ZktdsNRx";
 
 const socialLinks = [
-  { href: "mailto:panchalprem12350@gmail.com", icon: Mail, label: "Email" },
+  { href: "mailto:prempanchal.dev@gmail.com", icon: Mail, label: "Personal Email" },
+  { href: "mailto:panchal.pg@somaiya.edu", icon: Mail, label: "College Email" },
   { href: "https://linkedin.com/in/prempanchal1224", icon: Linkedin, label: "LinkedIn" },
   { href: "https://github.com/PremPanchal1224", icon: Github, label: "GitHub" },
   { href: "https://x.com/Prem_Panchal_", icon: Twitter, label: "X" },
@@ -81,7 +83,11 @@ export default function ContactSection() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail />
-                <span className="font-semibold text-white">panchalprem12350@gmail.com</span>
+                <span className="font-semibold text-white">prempanchal.dev@gmail.com</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail />
+                <span className="font-semibold text-white">panchal.pg@somaiya.edu</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin />
