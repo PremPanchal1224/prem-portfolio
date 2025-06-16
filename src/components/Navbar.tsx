@@ -1,5 +1,4 @@
-
-import { Github, Linkedin, Instagram } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -14,7 +13,6 @@ const navLinks = [
 const socialLinks = [
   { href: "https://github.com/PremPanchal1224", icon: Github, label: "GitHub" },
   { href: "https://linkedin.com/in/prempanchal1224", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://instagram.com/prem.panchal_", icon: Instagram, label: "Instagram" },
 ];
 
 export default function Navbar() {

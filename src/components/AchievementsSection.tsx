@@ -2,11 +2,11 @@
 const achievements = [
   {
     role: "Chairperson, CSI",
-    period: "Jul 2025 – Jul 2026",
+    period: "Jul 2025 – Present",
     desc: "Organized tech fests, coding events, and a national-level hackathon."
   },
   {
-    role: "CEO, Students’ Council",
+    role: "CEO, Students' Council",
     period: "Jan 2025 – Dec 2025",
     desc: "Managed major cultural and sports events at institute level."
   },
