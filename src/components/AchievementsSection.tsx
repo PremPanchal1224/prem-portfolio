@@ -6,13 +6,13 @@ const achievements = [
     desc: "Organized tech fests, coding events, and a national-level hackathon."
   },
   {
-    role: "CEO, Students' Council",
-    period: "Jan 2025 – Dec 2025",
+    role: "Jt. CEO, Students' Council",
+    period: "Jan 2025 – Present",
     desc: "Managed major cultural and sports events at institute level."
   },
   {
     role: "NSS Volunteer",
-    period: "Jul 2023 – Jul 2025",
+    period: "Jul 2023 – jun 2025",
     desc: "Dedicated 240 hours over 2 years to community and social service."
   },
 ];
