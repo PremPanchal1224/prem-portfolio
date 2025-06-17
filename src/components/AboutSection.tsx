@@ -19,7 +19,7 @@ export default function AboutSection() {
             I enjoy turning complex ideas into functional, user-centric products — and I'm always exploring what's next in the world of intelligent technology.
           </p>
           <div className="flex gap-5 mt-7">
-            <a href="https://drive.google.com/file/d/1y5y0UuXT-nf6zXD87BuVAIOHP-NMUHas/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            <a href="https://drive.google.com/file/d/1Wkc8BPdMKsKcjwNjcB6gLhQrQYr_1sgd/view?usp=sharing" target="_blank" rel="noopener noreferrer"
               className="bg-accent-blue px-8 py-2 rounded-lg font-bold text-white hover:bg-accent-green hover:text-darkbg transition-colors shadow">
               Download Resume
             </a>
