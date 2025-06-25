@@ -65,21 +65,23 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Right: Profile */}
-        <div className="flex-1 flex justify-center items-center min-w-[300px] animate-fade-in-up relative">
-          {/* Blurred halo effect */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-accent-electric/30 blur-3xl rounded-full z-0" />
-          {/* Profile Card */}
-          <div className="relative bg-gradient-to-br from-cardbg/90 to-darkbg/70 rounded-full shadow-neon p-[0.45rem] ring-4 ring-accent-blue/25 z-10">
-            <div className="relative w-64 h-64 overflow-hidden rounded-full">
-              <img
-                src={heroImage}
-                alt="Profile picture"
-                className="rounded-full w-64 h-64 object-cover object-[center_20%] border-4 border-accent-blue shadow-lg scale-150"
-              />
-            </div>
-          </div>
-        </div>
+       {/* Right: Profile */}
+<div className="flex-1 flex justify-center items-center min-w-[300px] animate-fade-in-up relative">
+  {/* Blurred halo effect */}
+  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-accent-electric/30 blur-3xl rounded-full z-0" />
+  
+  {/* Profile Card */}
+  <div className="relative bg-gradient-to-br from-cardbg/90 to-darkbg/70 rounded-full shadow-neon p-[0.45rem] ring-4 ring-accent-blue/25 z-10">
+    <div className="relative w-64 h-64 overflow-hidden rounded-full">
+      <img
+        src={heroImage}
+        alt="Profile picture"
+        className="rounded-full w-full h-full object-cover object-[center_10%] scale-125 border-4 border-accent-blue shadow-lg"
+      />
+    </div>
+  </div>
+</div>
+
       </div>
       {/* Gradient for subtle bottom */}
       <div className="absolute bottom-0 left-0 w-full h-28 bg-gradient-to-t from-darkbg via-darkbg/80 to-transparent pointer-events-none" />
