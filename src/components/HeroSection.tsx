@@ -79,15 +79,7 @@ export default function HeroSection() {
               />
             </div>
           </div>
-        </div>
-      </div>
-      {/* Gradient for subtle bottom */}
-      <div className="absolute bottom-0 left-0 w-full h-28 bg-gradient-to-t from-darkbg via-darkbg/80 to-transparent pointer-events-none" />
-    </section>
-  );
-}
-
-
+        </div> 
       </div>
       {/* Gradient for subtle bottom */}
       <div className="absolute bottom-0 left-0 w-full h-28 bg-gradient-to-t from-darkbg via-darkbg/80 to-transparent pointer-events-none" />
