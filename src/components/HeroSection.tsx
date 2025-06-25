@@ -75,7 +75,7 @@ export default function HeroSection() {
               <img
                 src={heroImage}
                 alt="Profile picture"
-                className="rounded-full w-64 h-64 object-cover object-[center_20%] border-4 border-accent-blue shadow-lg scale-150"
+                 className="rounded-full w-full h-full object-cover object-[center_18%] scale-[1.15] border-4 border-accent-blue shadow-lg"
               />
             </div>
           </div>
