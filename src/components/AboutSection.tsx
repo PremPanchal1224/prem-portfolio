@@ -7,7 +7,7 @@ export default function AboutSection() {
           <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
           {/* Main About Me Body */}
           <p className="mb-3 text-lg text-gray-300">
-            Hi, I'm Prem Panchal — a tech enthusiast and aspiring engineer specializing in AI, full-stack development, and data-driven applications. I'm currently in my third year of B.Tech in Computer Engineering at K. J. Somaiya Institute of Technology, with a CGPA of <span className="text-accent-green font-bold">9.3</span>.
+            Hi, I'm Prem Panchal — a tech enthusiast and aspiring engineer specializing in AI, full-stack development, and data-driven applications. I'm currently in my third year of B.Tech in Computer Engineering at K. J. Somaiya Institute of Technology, with a CGPA of <span className="text-accent-green font-bold">9.47</span>.
           </p>
           <p className="mb-3 text-lg text-gray-300">
             My journey includes internships at <span className="text-accent-green font-semibold">Claidroid Technologies</span> and under the <span className="text-accent-blue font-semibold">CASCADE</span> initiative, where I worked on machine learning models, UI/UX design, and app testing. I've built advanced projects like <span className="text-accent-blue font-semibold">DocEase</span> — an AI-powered document assistant, <span className="text-accent-blue font-semibold">Smart Chatbot</span> for intelligent communication, and <span className="text-accent-blue font-semibold">AlgoTrading</span>, a stock forecasting and financial assistant tool.
